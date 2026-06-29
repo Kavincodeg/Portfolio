@@ -13,6 +13,8 @@ document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe
 
 const sections = Array.from(document.querySelectorAll('section[id], footer[id]'));
 const navLinks = Array.from(document.querySelectorAll('.nav-menu a[href^="#"]'));
+const navToggle = document.querySelector('.nav-toggle');
+const navbar = document.getElementById('navbar');
 
 function setActiveNav(linkHref) {
   navLinks.forEach((link) => {
@@ -69,7 +71,30 @@ navLinks.forEach((link) => {
     if (href && href.startsWith('#')) {
       setActiveNav(href);
     }
+    if (navbar.classList.contains('nav-open')) {
+      navbar.classList.remove('nav-open');
+      navToggle?.setAttribute('aria-expanded', 'false');
+    }
   });
+  // Also handle touch and pointer events so mobile devices set active on first tap
+  link.addEventListener('touchstart', (e) => {
+    const href = link.getAttribute('href');
+    if (href && href.startsWith('#')) {
+      setActiveNav(href);
+    }
+  }, { passive: true });
+  link.addEventListener('pointerdown', (e) => {
+    const href = link.getAttribute('href');
+    if (href && href.startsWith('#')) {
+      setActiveNav(href);
+    }
+  });
+});
+
+navToggle?.addEventListener('click', () => {
+  const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+  navToggle.setAttribute('aria-expanded', String(!expanded));
+  navbar.classList.toggle('nav-open', !expanded);
 });
 
 updateActiveSection();

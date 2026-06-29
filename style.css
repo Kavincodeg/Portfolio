@@ -25,6 +25,19 @@ section[id],footer[id]{scroll-margin-top:84px;}
 .nav-menu li a.active{color:#dc2626;}
 .nav-menu li a.active::after{content:'';position:absolute;bottom:-4px;left:14px;right:14px;height:2px;background:#dc2626;border-radius:1px;}
 
+/* Make nav links respond immediately on touch/focus */
+.nav-menu li a:focus{color:#dc2626;outline:none;}
+.nav-menu li a{ -webkit-tap-highlight-color: transparent; }
+
+.nav-toggle{display:none;align-items:center;justify-content:center;width:44px;height:44px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;color:#fff;cursor:pointer;transition:transform .2s,background .2s;}
+.nav-toggle:hover{background:rgba(255,255,255,.12);}
+.nav-toggle span{display:block;width:18px;height:2px;background:#fff;border-radius:999px;position:relative;}
+.nav-toggle span + span{margin-top:5px;}
+
+#navbar.nav-open .nav-toggle span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+#navbar.nav-open .nav-toggle span:nth-child(2){opacity:0;}
+#navbar.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
 /* ============================================================
    HERO / HOME
 ============================================================ */
@@ -185,7 +198,13 @@ section[id],footer[id]{scroll-margin-top:84px;}
 ============================================================ */
 @media(max-width:1100px){.about-cards{grid-template-columns:repeat(2,1fr);}.about-highlights{grid-template-columns:1fr;}.certs-grid{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:900px){
-  #navbar{padding:0 20px;}.nav-menu{display:none;}
+  #navbar{padding:0 20px;}
+  .nav-toggle{display:flex;}
+  .nav-menu{display:none;position:absolute;top:64px;left:0;right:0;background:rgba(0,0,0,.98);flex-direction:column;gap:0;padding:16px 20px;border-top:1px solid rgba(255,255,255,.06);backdrop-filter:blur(12px);}
+  #navbar.nav-open .nav-menu{display:flex;}
+  .nav-menu li a{display:block;padding:12px 16px;border-radius:10px;margin-bottom:6px;color:rgba(255,255,255,.8);}
+  .nav-menu li a.active::after{display:none;}
+  .nav-menu li a.active{color:#dc2626;}
   #home{padding:68px 20px 36px;}.hero-shapes,.hero-photo-wrap{display:none;}.hero-left{max-width:100%;}
   #about{padding:72px 20px 52px;}.about-inner{flex-direction:column;gap:32px;}.about-left{flex:none;width:100%;}.about-cards{grid-template-columns:repeat(2,1fr);}
   #skills{padding:72px 20px 52px;}#projects{padding:72px 20px 52px;}.projects-grid{grid-template-columns:1fr;}.proj-header-row{flex-direction:column;align-items:flex-start;gap:10px;}
