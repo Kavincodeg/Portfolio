@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Kavin V S — AI &amp; Data Science Student</title>
+<meta name="description" content="Portfolio of Kavin V S — B.Tech AI &amp; Data Science student."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="navbar">
+  <div class="nav-logo">
+    <div class="logo-box">
+      <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 3L4 19" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M4 11L13 3" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M4 11L13 19" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M9 7.5L15.5 3" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
+        <path d="M9 14.5L15.5 19" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
+      </svg>
+    </div>
+    <span class="nav-brand">KAVIN V S</span>
+  </div>
+  <ul class="nav-menu">
+    <li><a href="index.html"  id="nav-home">HOME</a></li>
+    <li><a href="about.html"  id="nav-about">ABOUT</a></li>
+    <li><a href="skills.html" class="active" id="nav-skills">SKILLS</a></li>
+    <li><a href="projects.html"  id="nav-projects">PROJECTS</a></li>
+    <li><a href="experience.html"  id="nav-experience">EXPERIENCE</a></li>
+    <li><a href="certificates.html"  id="nav-certificates">CERTIFICATES</a></li>
+    <li><a href="contact.html"  id="nav-contact">CONTACT</a></li>
+  </ul>
+</nav>
+
+<section id="skills">
+  <div class="skills-wrap">
+    <div class="sec-label-red">SKILLS</div>
+    <h2 class="sec-h2-light">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-chip reveal"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java"></div><div class="sk-name">Java</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd1"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python"></div><div class="sk-name">Python</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd2"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="SQL"></div><div class="sk-name">SQL</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd3"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML"></div><div class="sk-name">HTML</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd4"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS"></div><div class="sk-name">CSS</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd1"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"></div><div class="sk-name">JavaScript</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd2"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git"></div><div class="sk-name">Git</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd3"><div class="sk-icon-box" style="background:#fff;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub"></div><div class="sk-name">GitHub</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd4"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="Machine Learning"></div><div class="sk-name">Machine<br>Learning</div><div class="sk-underline"></div></div>
+      <div class="skill-chip reveal rd1"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React"></div><div class="sk-name">React</div><div class="sk-underline"></div></div>
+    </div>
+  </div>
+</section>
+
+<script>
+const revIo=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add("vis");});},{threshold:.08,rootMargin:"-10px 0px"});
+document.querySelectorAll(".reveal").forEach(el=>revIo.observe(el));
+</script>
+</body>
+</html>

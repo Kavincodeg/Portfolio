@@ -1,0 +1,4 @@
+photo_check.jpg
+__pycache__/
+*.pyc
+.DS_Store

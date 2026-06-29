@@ -1,0 +1,113 @@
+Kavin’s Skills Summary
+
+Programming Languages
+
+-   Java (Primary language)
+-   Python
+-   SQL
+-   Basic JavaScript
+
+Core Computer Science
+
+-   Object-Oriented Programming (OOP)
+-   Generics
+-   Exception Handling
+-   Multithreading
+-   String Handling
+-   Java Collections Framework
+-   Arrays & Strings
+-   HashMap, HashSet, List
+-   Time & Space Complexity
+-   Basic Data Structures & Algorithms
+
+Web Development
+
+-   HTML
+-   CSS
+-   Basic React.js
+-   Basic Node.js
+-   Streamlit
+
+Artificial Intelligence & Machine Learning
+
+-   Machine Learning
+-   Deep Learning
+-   Natural Language Processing (NLP)
+-   Predictive Modeling
+-   Sentiment Analysis
+-   Text Classification
+-   Next Word Prediction (BiLSTM)
+-   Classification & Regression Models
+-   Model Training & Evaluation
+-   Feature Engineering
+
+Data Science & Analytics
+
+-   Data Cleaning & Preprocessing
+-   Exploratory Data Analysis (EDA)
+-   Data Visualization
+-   Statistical Analysis
+
+Libraries & Frameworks
+
+-   Scikit-learn
+-   TensorFlow
+-   Keras
+-   Hugging Face Transformers
+-   Pandas
+-   NumPy
+-   Matplotlib
+-   Optuna
+
+Databases
+
+-   MySQL / SQL Databases
+
+Tools & Platforms
+
+-   Git
+-   GitHub
+-   VS Code
+-   Streamlit Cloud
+-   Jupyter Notebook
+-   Google Colab
+-   Wokwi (IoT Simulation)
+-   Loom (Project Demos)
+
+IoT
+
+-   Sensor Integration
+-   Real-Time Monitoring
+-   EV Battery Monitoring Concepts
+-   Fire Risk Monitoring Systems
+
+Software Development
+
+-   REST API Integration
+-   Model Deployment
+-   Debugging
+-   Version Control
+-   Technical Documentation
+
+Projects
+
+-   URL Shortener with Analytics
+-   EV Battery Degradation & Fire Risk Monitoring System
+-   AI Resume Weakness Detector
+-   Fake News Detector
+-   Amazon Sentiment Analysis
+-   Smart Energy Consumption Prediction
+-   Next Word Prediction using BiLSTM
+
+Soft Skills
+
+-   Problem Solving
+-   Analytical Thinking
+-   Teamwork
+-   Leadership
+-   Communication
+-   Presentation Skills
+-   Continuous Learning
+-   Time Management
+-   Project Development
+-   Technical Writing
