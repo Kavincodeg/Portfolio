@@ -223,5 +223,5 @@ section[id],footer[id]{scroll-margin-top:84px;}
   .hero-btns{flex-direction:column;width:100%;gap:12px;}
   .btn-red,.btn-outline-w{width:100%;justify-content:center;}
   .hero-socials{justify-content:center;}
-  .about-cards{grid-template-columns:1fr;}.certs-grid{grid-template-columns:1fr;}
+  .about-cards{grid-template-columns:repeat(2,1fr);}.certs-grid{grid-template-columns:1fr;}
 }
