@@ -1,66 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Kavin V S — AI &amp; Data Science Student</title>
-<meta name="description" content="Portfolio of Kavin V S — B.Tech AI &amp; Data Science student."/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kavin V S — AI &amp; Data Science Student</title>
+  <meta name="description" content="Portfolio of Kavin V S — B.Tech AI &amp; Data Science student." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<nav id="navbar">
-  <div class="nav-logo">
-    <div class="logo-box">
-      <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4 3L4 19" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-        <path d="M4 11L13 3" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-        <path d="M4 11L13 19" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
-        <path d="M9 7.5L15.5 3" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
-        <path d="M9 14.5L15.5 19" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
-      </svg>
+  <nav id="navbar">
+    <div class="nav-logo">
+      <div class="logo-box">
+        <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 3L4 19" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+          <path d="M4 11L13 3" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+          <path d="M4 11L13 19" stroke="white" stroke-width="2.5" stroke-linecap="round" />
+          <path d="M9 7.5L15.5 3" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.65" />
+          <path d="M9 14.5L15.5 19" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.65" />
+        </svg>
+      </div>
+      <span class="nav-brand">KAVIN V S</span>
     </div>
-    <span class="nav-brand">KAVIN V S</span>
-  </div>
-  <ul class="nav-menu">
-    <li><a href="index.html" class="active" id="nav-home">HOME</a></li>
-    <li><a href="about.html"  id="nav-about">ABOUT</a></li>
-    <li><a href="skills.html"  id="nav-skills">SKILLS</a></li>
-    <li><a href="projects.html"  id="nav-projects">PROJECTS</a></li>
-    <li><a href="experience.html"  id="nav-experience">EXPERIENCE</a></li>
-    <li><a href="certificates.html"  id="nav-certificates">CERTIFICATES</a></li>
-    <li><a href="contact.html"  id="nav-contact">CONTACT</a></li>
-  </ul>
-</nav>
+    <ul class="nav-menu">
+      <li><a href="#home" class="active" id="nav-home">HOME</a></li>
+      <li><a href="#about" id="nav-about">ABOUT</a></li>
+      <li><a href="#skills" id="nav-skills">SKILLS</a></li>
+      <li><a href="#projects" id="nav-projects">PROJECTS</a></li>
+      <li><a href="#experience" id="nav-experience">EXPERIENCE</a></li>
+      <li><a href="#certificates" id="nav-certificates">CERTIFICATES</a></li>
+      <li><a href="#contact" id="nav-contact">CONTACT</a></li>
+    </ul>
+  </nav>
 
-<section id="home">
-  <div class="hero-dots"></div>
-  <div class="hero-shapes"><div class="hs-1"></div><div class="hs-2"></div><div class="hs-3"></div><div class="hs-4"></div></div>
-  <div class="hero-left reveal">
-    <div class="hero-hello">Hello, I'm</div>
-    <h1 class="hero-name">KAVIN V S</h1>
-    <div class="hero-title-row"><div class="h-bar"></div><span class="hero-subtitle">Full Stack &amp; Software Developer</span></div>
-    <p class="hero-desc">Passionate about building intelligent solutions and<br>modern applications that solve real world problems.</p>
-    <div class="hero-btns">
-      <a href="projects.html" class="btn-red" id="btn-explore">Explore My Work &nbsp;&#8594;</a>
-      <a href="Kavin v s resume.pdf" download class="btn-outline-w" id="btn-resume">Download Resume &nbsp;&#8595;</a>
+  <section id="home">
+    <div class="hero-dots"></div>
+    <div class="hero-shapes">
+      <div class="hs-1"></div>
+      <div class="hs-2"></div>
+      <div class="hs-3"></div>
+      <div class="hs-4"></div>
     </div>
-    <div class="hero-socials">
-      <a href="https://github.com/Kavincodeg" target="_blank" rel="noopener" class="soc-btn" id="soc-github" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></a>
-      <a href="https://www.linkedin.com/in/kavin-v-s-605940292/" target="_blank" rel="noopener" class="soc-btn" id="soc-linkedin" title="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kavinvs2486@gmail.com" target="_blank" class="soc-btn" id="soc-email" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg></a>
+    <div class="hero-left reveal">
+      <div class="hero-hello">Hello, I'm</div>
+      <h1 class="hero-name">KAVIN V S</h1>
+      <div class="hero-title-row">
+        <div class="h-bar"></div>
+        <span class="hero-subtitle">AI Engineer • Full-Stack Developer</span>
+      </div>
+      <p class="hero-desc">Building AI agents, RAG applications, and full-stack products that improve workflows and deliver measurable results.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-red" id="btn-explore">Explore My Work &nbsp;&#8594;</a>
+        <a href="assets/Kavin v s resume.pdf" download class="btn-outline-w" id="btn-resume">Download Resume &nbsp;&#8595;</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Kavincodeg" target="_blank" rel="noopener" class="soc-btn" id="soc-github" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg></a>
+        <a href="https://www.linkedin.com/in/kavin-v-s-605940292/" target="_blank" rel="noopener" class="soc-btn" id="soc-linkedin" title="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kavinvs2486@gmail.com" target="_blank" class="soc-btn" id="soc-email" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,12 2,6" /></svg></a>
+      </div>
     </div>
-  </div>
-  <div class="hero-photo-wrap">
-    <img src="photo.png" alt="Kavin V S" id="hero-img" onerror="this.style.display='none'"/>
-  </div>
-</section>
+    <div class="hero-photo-wrap">
+      <img src="assets/photo.png" alt="Kavin V S" id="hero-img" onerror="this.style.display='none'" />
+    </div>
+  </section>
 
-<script>
-const revIo=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add("vis");});},{threshold:.08,rootMargin:"-10px 0px"});
-document.querySelectorAll(".reveal").forEach(el=>revIo.observe(el));
-</script>
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-left reveal">
+        <div class="sec-label-red">ABOUT ME</div>
+        <h2 class="sec-h2-light">Who I Am</h2>
+        <p class="about-p">I’m a B.Tech AI &amp; Data Science undergraduate focused on building AI agents, RAG systems, and full-stack products that solve real-world problems with measurable impact.</p>
+        <div class="about-highlights">
+          <div class="about-highlight-item">
+            <span class="about-highlight-value">92%</span>
+            <span class="about-highlight-label">Prediction accuracy</span>
+          </div>
+          <div class="about-highlight-item">
+            <span class="about-highlight-value">60%</span>
+            <span class="about-highlight-label">Workflow efficiency boost</span>
+          </div>
+          <div class="about-highlight-item">
+            <span class="about-highlight-value">10K+</span>
+            <span class="about-highlight-label">Records/day automated</span>
+          </div>
+        </div>
+        <a href="#contact" class="btn-red-sm" id="btn-about-more">Contact Me &nbsp;&#8594;</a>
+      </div>
+      <div class="about-cards">
+        <div class="abt-card reveal rd1">
+          <div class="abt-icon">🎓</div>
+          <div class="abt-title">Education</div>
+          <div class="abt-val">B.Tech AI &amp; DS<br />2023 – 2027</div>
+        </div>
+        <div class="abt-card reveal rd2">
+          <div class="abt-icon-code">&lt;/&gt;</div>
+          <div class="abt-title">Core Stack</div>
+          <div class="abt-val">Java, Python, SQL,<br />React &amp; Node.js</div>
+        </div>
+        <div class="abt-card reveal rd3">
+          <div class="abt-icon">🚀</div>
+          <div class="abt-title">Focus</div>
+          <div class="abt-val">AI agents, RAG,<br />ML &amp; full-stack</div>
+        </div>
+        <div class="abt-card reveal rd4">
+          <div class="abt-icon">🌐</div>
+          <div class="abt-title">Languages</div>
+          <div class="abt-val">English, Tamil,<br />Hindi</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="skills-wrap">
+      <div class="sec-label-red">SKILLS</div>
+      <h2 class="sec-h2-light">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-chip reveal"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" /></div><div class="sk-name">Java</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd1"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" /></div><div class="sk-name">Python</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd2"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="SQL" /></div><div class="sk-name">SQL</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd3"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React.js" /></div><div class="sk-name">React.js</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd4"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" /></div><div class="sk-name">Node.js</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd1"><div class="sk-icon-box"><span class="sk-text-icon">API</span></div><div class="sk-name">REST APIs</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd2"><div class="sk-icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="Machine Learning" /></div><div class="sk-name">Machine Learning</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd3"><div class="sk-icon-box"><span class="sk-text-icon">LLM</span></div><div class="sk-name">Generative AI</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd4"><div class="sk-icon-box"><span class="sk-text-icon">RAG</span></div><div class="sk-name">RAG</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd1"><div class="sk-icon-box"><span class="sk-text-icon">PROMPT</span></div><div class="sk-name">Prompt Engineering</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd2"><div class="sk-icon-box"><span class="sk-text-icon">DSA</span></div><div class="sk-name">DSA &amp; OOP</div><div class="sk-underline"></div></div>
+        <div class="skill-chip reveal rd3"><div class="sk-icon-box" style="background:#fff;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></div><div class="sk-name">Git &amp; GitHub</div><div class="sk-underline"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="projects-inner">
+      <div class="proj-header-row" style="margin-top: 0;">
+        <div>
+          <div class="sec-label-red">PROJECTS</div>
+          <h2 class="sec-h2-light" style="margin-bottom:0">Featured Projects</h2>
+        </div>
+        <a href="https://github.com/Kavincodeg?tab=repositories" target="_blank" class="view-all-link" id="link-all-projects">View All Projects &nbsp;&#8594;</a>
+      </div>
+      <div class="projects-grid">
+        <div class="proj-card reveal">
+          <div class="proj-thumb"><div class="proj-thumb-inner" style="background:linear-gradient(135deg,#050510,#120820 40%,#1a0505 80%,#0a0a0a)"><div style="text-align:center;padding:10px"><div style="font-size:3rem;margin-bottom:6px;filter:drop-shadow(0 0 12px rgba(220,38,38,.6))">⚡</div><div style="font-size:.65rem;font-weight:700;color:rgba(220,38,38,.7);letter-spacing:.14em;text-transform:uppercase">BATTERY MONITOR</div></div></div></div>
+          <div class="proj-body">
+            <div class="proj-title">EV Battery Degradation &amp; Fire Risk Monitoring System</div>
+            <div class="proj-desc">Built a machine learning pipeline to forecast battery degradation with 92% accuracy and a real-time Streamlit dashboard for monitoring.</div>
+            <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">Scikit-learn</span><span class="ptag">Streamlit</span><span class="ptag">IoT</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Kavincodeg/EV-Battery-Fire-Risk-Monitoring" target="_blank" class="plink" id="ev-github">GitHub <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="proj-card reveal rd1">
+          <div class="proj-thumb"><div class="proj-thumb-inner" style="background:linear-gradient(135deg,#0f0505,#1a0808 35%,#100a0a 70%,#050505)"><div style="text-align:center;padding:10px"><div style="font-size:1.3rem;font-weight:900;color:#dc2626;margin-bottom:4px;text-shadow:0 0 20px rgba(220,38,38,.5)">ANALYTICS</div><div style="font-size:2.5rem;filter:drop-shadow(0 0 12px rgba(220,38,38,.5))">🔗</div><div style="font-size:.65rem;font-weight:700;color:rgba(220,38,38,.7);letter-spacing:.14em;text-transform:uppercase;margin-top:4px">URL SHORTENER</div></div></div></div>
+          <div class="proj-body">
+            <div class="proj-title">URL Shortener with Analytics Dashboard</div>
+            <div class="proj-desc">Developed a full-stack URL shortening platform with secure redirection, authentication, and a real-time analytics dashboard.</div>
+            <div class="proj-tags"><span class="ptag">React.js</span><span class="ptag">Node.js</span><span class="ptag">MongoDB</span><span class="ptag">REST APIs</span></div>
+            <div class="proj-links">
+              <a href="https://getlinko.vercel.app/" target="_blank" class="plink" id="url-demo">Live Demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg></a>
+              <a href="https://github.com/Kavincodeg/url-shortener" target="_blank" class="plink" id="url-github">GitHub <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="proj-card reveal rd2">
+          <div class="proj-thumb"><div class="proj-thumb-inner" style="background:linear-gradient(135deg,#050a0a,#081515 35%,#050520 70%,#0a0a0a)"><div style="text-align:center;padding:10px"><div style="font-size:1.3rem;filter:drop-shadow(0 0 8px rgba(255,165,0,.5));margin-bottom:6px">🧠</div><div style="font-size:.65rem;font-weight:700;color:rgba(220,38,38,.7);letter-spacing:.14em;text-transform:uppercase">AI RESEARCH</div></div></div></div>
+          <div class="proj-body">
+            <div class="proj-title">Intellexa AI</div>
+            <div class="proj-desc">Designed a multi-agent AI platform that transforms user queries into structured research insights using web search, retrieval, and orchestration workflows.</div>
+            <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">LangChain</span><span class="ptag">Streamlit</span><span class="ptag">LLMs</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Kavincodeg" target="_blank" class="plink" id="intellexa-github">GitHub <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="proj-card reveal rd3">
+          <div class="proj-thumb"><div class="proj-thumb-inner" style="background:linear-gradient(135deg,#050a0a,#081515 35%,#050520 70%,#0a0a0a)"><div style="text-align:center;padding:10px"><div style="font-size:1.3rem;filter:drop-shadow(0 0 8px rgba(255,165,0,.5));margin-bottom:6px">📊</div><div style="font-size:.65rem;font-weight:700;color:rgba(220,38,38,.7);letter-spacing:.14em;text-transform:uppercase">SENTIMENT ANALYSIS</div></div></div></div>
+          <div class="proj-body">
+            <div class="proj-title">Amazon Product Sentiment Analysis</div>
+            <div class="proj-desc">Built a transformer-based NLP solution for analyzing product reviews and predicting sentiment with strong classification performance.</div>
+            <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">NLP</span><span class="ptag">Transformers</span><span class="ptag">Streamlit</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Kavincodeg/amazon-sentiment-analysis" target="_blank" class="plink" id="amz-github">GitHub <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="proj-card reveal rd4">
+          <div class="proj-thumb"><div class="proj-thumb-inner" style="background:linear-gradient(135deg,#080505,#140909 35%,#090909 70%,#050505)"><div style="text-align:center;padding:10px"><div style="font-size:2rem;margin-bottom:6px;filter:drop-shadow(0 0 12px rgba(220,38,38,.6))">📝</div><div style="font-size:.65rem;font-weight:700;color:rgba(220,38,38,.7);letter-spacing:.14em;text-transform:uppercase">RESUME ANALYZER</div></div></div></div>
+          <div class="proj-body">
+            <div class="proj-title">AI Resume Weakness Detector</div>
+            <div class="proj-desc">Developed an AI-driven tool that evaluates resumes, detects improvement areas, and provides actionable feedback for stronger applications.</div>
+            <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">LLMs</span><span class="ptag">Prompt Engineering</span><span class="ptag">Streamlit</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Kavincodeg/AI-Resume-Weakness-Detector" target="_blank" class="plink" id="resume-github">GitHub <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="proj-card reveal rd1">
+          <div class="proj-thumb"><div class="proj-thumb-inner" style="background:linear-gradient(135deg,#05070a,#091010 35%,#050505 70%,#050505)"><div style="text-align:center;padding:10px"><div style="font-size:2rem;margin-bottom:6px;filter:drop-shadow(0 0 12px rgba(220,38,38,.6))">📰</div><div style="font-size:.65rem;font-weight:700;color:rgba(220,38,38,.7);letter-spacing:.14em;text-transform:uppercase">FAKE NEWS</div></div></div></div>
+          <div class="proj-body">
+            <div class="proj-title">Fake News Detector</div>
+            <div class="proj-desc">Implemented a text classification model to detect misinformation and classify news content with strong accuracy and interpretability.</div>
+            <div class="proj-tags"><span class="ptag">Python</span><span class="ptag">NLP</span><span class="ptag">Classification</span><span class="ptag">Machine Learning</span></div>
+            <div class="proj-links">
+              <a href="https://github.com/Kavincodeg/fake-news-detector" target="_blank" class="plink" id="fake-news-github">GitHub <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="exp-inner">
+      <div class="sec-label-red">EXPERIENCE</div>
+      <h2 class="sec-h2-light">My Journey</h2>
+      <div class="tl-wrap reveal">
+        <div class="tl-rail"><div class="tl-rail-fill"></div></div>
+        <div class="tl-items">
+          <div class="tl-item"><div class="tl-icon-wrap">🎓</div><div class="tl-year">2023</div><div class="tl-ev-title">B.Tech in AI &amp; DS</div><div class="tl-ev-desc">Started building a strong foundation in AI, data science, and software engineering.</div></div>
+          <div class="tl-item"><div class="tl-icon-wrap">💻</div><div class="tl-year">2024</div><div class="tl-ev-title">Core CS &amp; Full-Stack</div><div class="tl-ev-desc">Strengthened DSA, OOP, DBMS, and web development with Java, Python, and React.</div></div>
+          <div class="tl-item"><div class="tl-icon-wrap">🤖</div><div class="tl-year">2025</div><div class="tl-ev-title">Data Science Intern</div><div class="tl-ev-desc">Developed AI pipelines, prompt frameworks, and automated data workflows at ZGROW.</div></div>
+          <div class="tl-item"><div class="tl-icon-wrap">🚀</div><div class="tl-year">2026</div><div class="tl-ev-title">AI Product Builder</div><div class="tl-ev-desc">Building intelligent products with LLMs, RAG, and full-stack delivery.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <div class="certs-inner">
+      <div class="sec-label-red">CERTIFICATES</div>
+      <h2 class="sec-h2-light">Certifications</h2>
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-logo-text"><span style="color:#f59e0b">◆ NPTEL</span></div>
+          <div class="cert-course">Human Computer Interaction</div>
+          <div class="cert-issuer">NPTEL</div>
+        </div>
+        <div class="cert-card reveal rd1">
+          <div class="cert-logo-text"><span style="color:#f59e0b">◆ NPTEL</span></div>
+          <div class="cert-course">Privacy &amp; Security in Online Social Media</div>
+          <div class="cert-issuer">NPTEL</div>
+        </div>
+        <div class="cert-card reveal rd2">
+          <div class="cert-logo-text" style="margin-bottom: 22px;">
+            <span style="color:#b99e7d; font-family: monospace; font-weight: 800; letter-spacing: 0.08em; font-size: 1.35rem;">ANTHROP\C</span>
+          </div>
+          <div class="cert-course">AI Fluency: Framework &amp; Foundations</div>
+          <div class="cert-issuer">Anthropic</div>
+        </div>
+        <div class="cert-card reveal rd3">
+          <div class="cert-logo-text"><span style="color:#f59e0b">⚑</span></div>
+          <div class="cert-course">CodeZap Hackathon Finalist</div>
+          <div class="cert-issuer">Top 10 out of 200+ teams</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-cta reveal">
+      <div class="footer-cta-text">
+        <h2>Let's Build Something<br />Amazing <em>Together!</em></h2>
+        <p class="footer-note">Open to internships, collaborations, and building impactful AI and full-stack products.</p>
+        <a href="#home" class="btn-red-sm" style="margin-top: 24px; background: transparent; border-color: rgba(255,255,255,0.4); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.08em;">
+          &#8592; Return to Home
+        </a>
+      </div>
+      <div class="footer-contacts">
+        <a class="fc-item" href="https://mail.google.com/mail/?view=cm&fs=1&to=kavinvs2486@gmail.com" target="_blank" rel="noopener">
+          <div class="fc-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,12 2,6" /></svg></div>
+          <div><div class="fc-label">Email</div><div class="fc-value">kavinvs2486@gmail.com</div></div>
+        </a>
+        <a class="fc-item" href="https://www.linkedin.com/in/kavin-v-s-605940292/" target="_blank" rel="noopener">
+          <div class="fc-icon-box"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg></div>
+          <div><div class="fc-label">LinkedIn</div><div class="fc-value">linkedin.com/in/kavin-v-s</div></div>
+        </a>
+        <a class="fc-item" href="https://github.com/Kavincodeg" target="_blank" rel="noopener">
+          <div class="fc-icon-box"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" /></svg></div>
+          <div><div class="fc-label">GitHub</div><div class="fc-value">github.com/Kavincodeg</div></div>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="fb-left">
+        <div class="fb-logo-mini">K</div>
+        <span class="fb-copy">© 2025 Kavin V S. All rights reserved.</span>
+      </div>
+      <div class="fb-center"><span>❤</span><span>Thanks for visiting!</span></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
