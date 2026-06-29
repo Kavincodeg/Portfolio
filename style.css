@@ -57,21 +57,21 @@ img{max-width:100%;display:block;}
 /* ============================================================
    ABOUT ME
 ============================================================ */
-#about{background:#fff;color:#111;padding:120px 56px 80px;min-height:calc(100vh - 0px);display:flex;align-items:center;}
+#about{background:#0a0a0a;color:#fff;padding:120px 56px 80px;min-height:calc(100vh - 0px);display:flex;align-items:center;}
 .about-inner{max-width:1200px;margin:0 auto;display:flex;align-items:flex-start;gap:56px;width:100%;}
 .about-left{flex:0 0 300px;}
 .sec-label-red{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#dc2626;margin-bottom:10px;}
 .sec-h2-dark{font-size:2.1rem;font-weight:800;color:#111;line-height:1.15;margin-bottom:16px;}
-.about-p{font-size:.92rem;line-height:1.78;color:#555;margin-bottom:26px;}
+.about-p{font-size:.92rem;line-height:1.78;color:rgba(255,255,255,.75);margin-bottom:26px;}
 .btn-red-sm{display:inline-flex;align-items:center;gap:8px;padding:10px 22px;background:#dc2626;color:#fff;border-radius:6px;font-size:.88rem;font-weight:700;border:2px solid #dc2626;transition:all .25s;}
 .btn-red-sm:hover{background:#b91c1c;border-color:#b91c1c;transform:translateY(-2px);}
 .about-cards{flex:1;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;align-items:start;}
-.abt-card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:30px 16px 24px;text-align:center;transition:all .28s;box-shadow:0 1px 6px rgba(0,0,0,.05);}
-.abt-card:hover{box-shadow:0 10px 36px rgba(220,38,38,.13);border-color:rgba(220,38,38,.3);transform:translateY(-5px);}
+.abt-card{background:#111;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:30px 16px 24px;text-align:center;transition:all .28s;box-shadow:0 1px 6px rgba(0,0,0,.05);}
+.abt-card:hover{box-shadow:0 10px 36px rgba(220,38,38,.15);border-color:rgba(220,38,38,.35);transform:translateY(-5px);}
 .abt-icon{font-size:2rem;color:#dc2626;margin-bottom:12px;line-height:1;}
 .abt-icon-code{font-size:1.2rem;font-weight:900;color:#dc2626;font-family:monospace;margin-bottom:12px;line-height:1;}
-.abt-title{font-size:.88rem;font-weight:700;color:#111;margin-bottom:8px;}
-.abt-val{font-size:.82rem;color:#666;line-height:1.55;}
+.abt-title{font-size:.88rem;font-weight:700;color:#fff;margin-bottom:8px;}
+.abt-val{font-size:.82rem;color:rgba(255,255,255,.55);line-height:1.55;}
 
 /* ============================================================
    SKILLS
@@ -114,18 +114,18 @@ img{max-width:100%;display:block;}
 /* ============================================================
    EXPERIENCE
 ============================================================ */
-#experience{background:#fff;color:#111;padding:120px 56px 80px;min-height:calc(100vh - 0px);display:flex;align-items:center;}
+#experience{background:#0a0a0a;color:#fff;padding:120px 56px 80px;min-height:calc(100vh - 0px);display:flex;align-items:center;}
 .exp-inner{max-width:1200px;margin:0 auto;width:100%;}
 .tl-wrap{margin-top:52px;position:relative;}
-.tl-rail{position:absolute;top:28px;left:12.5%;right:12.5%;height:2px;background:#e5e7eb;z-index:0;}
+.tl-rail{position:absolute;top:28px;left:12.5%;right:12.5%;height:2px;background:rgba(255,255,255,.08);z-index:0;}
 .tl-rail-fill{height:100%;background:#dc2626;width:75%;}
 .tl-items{display:flex;justify-content:space-between;position:relative;z-index:1;}
 .tl-item{display:flex;flex-direction:column;align-items:center;text-align:center;flex:1;}
 .tl-icon-wrap{width:56px;height:56px;border-radius:50%;background:rgba(220,38,38,.1);border:2px solid rgba(220,38,38,.25);display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:20px;position:relative;}
-.tl-icon-wrap::before{content:'';position:absolute;top:-22px;left:50%;transform:translateX(-50%);width:12px;height:12px;border-radius:50%;background:#dc2626;border:3px solid #fff;box-shadow:0 0 0 2px #dc2626;}
+.tl-icon-wrap::before{content:'';position:absolute;top:-22px;left:50%;transform:translateX(-50%);width:12px;height:12px;border-radius:50%;background:#dc2626;border:3px solid #0a0a0a;box-shadow:0 0 0 2px #dc2626;}
 .tl-year{font-size:.83rem;font-weight:700;color:#dc2626;margin-bottom:5px;}
-.tl-ev-title{font-size:.97rem;font-weight:700;color:#111;margin-bottom:6px;}
-.tl-ev-desc{font-size:.8rem;color:#888;line-height:1.55;max-width:140px;margin:0 auto;}
+.tl-ev-title{font-size:.97rem;font-weight:700;color:#fff;margin-bottom:6px;}
+.tl-ev-desc{font-size:.8rem;color:rgba(255,255,255,.55);line-height:1.55;max-width:140px;margin:0 auto;}
 
 /* ============================================================
    CERTIFICATES
